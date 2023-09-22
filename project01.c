@@ -1,17 +1,16 @@
-
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 
 #include "passwords.h"
 #include "sha256.h"
-#include "sha256.c" 
-#include "passwords.c"
+
+
 
 #define DIG_BIN_LEN 32
 #define DIG_STR_LEN ((DIG_BIN_LEN * 2) + 1)
 
-#define  PASSWORD_LENGTH 64;
+
 
 void sha256(char *dest, char *src) {
     // zero out the sha256 context
