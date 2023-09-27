@@ -91,7 +91,7 @@ int main(int argc, const char **argv)
     }
 
    // if the password is not found, try changing the password
-   // using l335t speak
+   // use l335t speak
     if (password[0] == '\0')
     {
     	for (int i = 0; i < 10000; i++)
