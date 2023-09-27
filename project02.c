@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 #define MAX_PASSWORD 64
 #define DIG_BIN_LEN 32
 #define DIG_STR_LEN ((DIG_BIN_LEN * 2) + 1)
