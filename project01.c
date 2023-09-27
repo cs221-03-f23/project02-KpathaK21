@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
 #include "passwords.h"
 #include "sha256.h"
 
+
 #define DIG_BIN_LEN 32
 #define DIG_STR_LEN ((DIG_BIN_LEN * 2) + 1)
-
 
 void sha256(char *dest, char *src) {
     // zero out the sha256 context
@@ -32,8 +31,6 @@ void sha256(char *dest, char *src) {
         dest += 2;
     }
 }
-
-
 
 char change(char curr)
 {
