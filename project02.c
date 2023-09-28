@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "sha256.h"
+#include "passwords.h"
 
 #define MAX_PASSWORD 64
 #define DIG_BIN_LEN 32
